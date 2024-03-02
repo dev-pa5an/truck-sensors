@@ -9,6 +9,7 @@ import csv
 import json
 import argparse
 import time
+import pandas
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-p", "--path", action="store", required=True, dest="path", help="CSV file path")
